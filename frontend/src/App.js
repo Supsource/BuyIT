@@ -1,10 +1,19 @@
 import React from 'react';
+import {Route, Routes, BrowserRouter} from 'react-router-dom'
+import Home from './Pages/HomePage/Home';
+import './App.css'
 
 const App = () => {
   return (
-    <div>
-      <h1>HOME</h1>
-    </div>
+   <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<Home/>} />
+    <Route path="/Home" element={<Home/>} />
+    <Route path="*" element={<div>
+      <h1>404 PAGE NOT FOUND</h1>
+    </div>} />
+   </Routes>
+   </BrowserRouter>
   );
 }
 
