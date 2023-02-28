@@ -57,9 +57,11 @@ const Navbar = () => {
       <Dropdown.Menu>
         <Dropdown.Item href="#/action-1">FAQ</Dropdown.Item>
         <Dropdown.Item href="#/action-2">Privacy Policy</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">T&C</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Terms and Conditions</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
+    <a>Became a seller</a>
+    <a>24x7 Customer Support</a>
         </div>
     </nav>
   );

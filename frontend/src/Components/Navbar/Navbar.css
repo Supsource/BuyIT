@@ -33,8 +33,9 @@ nav .searchbar{
 nav .searchbar input{
     border: none;
     outline: none;
-    width: 100%;
+    width: 370px;
     font-size: 14px;
+    /* align-items: center; */
 }
 
 nav .searchbar svg{
