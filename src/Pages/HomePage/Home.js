@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerSlider from '../../Components/Banners/BannerSlider';
+import HomeCatagories from '../../Components/Category/HomeCatagories';
 import Navbar from '../../Components/Navbar/Navbar';
 
 
@@ -8,6 +9,7 @@ const Home = () => {
   <div>
      <Navbar/>
      <BannerSlider/>
+     <HomeCatagories/>
       Home
   </div>
   
