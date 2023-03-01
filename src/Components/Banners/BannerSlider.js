@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import './BannerSlider.css'
 
 const BannerSlider = () => {
     const data = [
@@ -45,7 +46,7 @@ const BannerSlider = () => {
                     <img src={item.Image} alt='noImg' />
                     <div className='content'>
                           <h1>{item.title}</h1>
-                          <p>{item.description}</p>
+                          <span>{item.description}</span>
                           <button>Shop More</button>
                     </div>
                     </div>
