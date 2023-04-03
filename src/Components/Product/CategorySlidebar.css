@@ -1,0 +1,26 @@
+.CategorySlidebar .category img{
+    width: 40px;
+    height: 40px;
+}
+.CategorySlidebar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #ccc; */
+}
+.CategorySlidebar .category{
+    display: flex;
+    align-items: center;
+    border: 1px solid #230101;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    cursor: pointer;
+    gap: 10px;
+}
+.CategorySlidebar .category:hover{
+    background-color: lightgreen;
+}
+.CategorySlidebar .category h3{
+    font-size: 10px;
+}
