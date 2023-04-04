@@ -40,10 +40,85 @@ const AllProducts = () => {
       productprice: 100,
       counttype : '1 each',
       discountpercent: 10
+    },
+    {
+      id:5,
+      productimgage : img1,
+      productname: 'product 5',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
+    },
+    {
+      id:6,
+      productimgage : img2,
+      productname: 'product 6',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
+    },
+    {
+      id:7,
+      productimgage : img3,
+      productname: 'product 7',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
+    },
+    {
+      id:8,
+      productimgage : img4,
+      productname: 'product 8',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
+    },
+    {
+      id:9,
+      productimgage : img1,
+      productname: 'product 9',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
+    },
+    {
+      id:10,
+      productimgage : img2,
+      productname: 'product 10',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
+    },
+    {
+      id:11,
+      productimgage : img3,
+      productname: 'product 11',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
+    },
+    {
+      id:12,
+      productimgage : img4,
+      productname: 'product 12',
+      productprice: 100,
+      counttype : '1 each',
+      discountpercent: 10
     }
   ]
   return (
-    <div>AllProducts</div>
+    <div className='allproducts'>
+      <h1>Trending products</h1>
+      <div className='products'>
+        {
+      products.map((item) => {
+        return(
+           <ProductCart data={item} key={item.id}/>
+        )
+      })
+    }
+      </div>
+    </div>
   )
 }
 
