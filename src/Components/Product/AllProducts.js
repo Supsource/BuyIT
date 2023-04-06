@@ -15,7 +15,7 @@ const AllProducts = () => {
       productname: 'product 1',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:2,
@@ -23,7 +23,7 @@ const AllProducts = () => {
       productname: 'product 2',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:3,
@@ -31,7 +31,7 @@ const AllProducts = () => {
       productname: 'product 3',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:4,
@@ -39,7 +39,7 @@ const AllProducts = () => {
       productname: 'product 4',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:5,
@@ -47,7 +47,7 @@ const AllProducts = () => {
       productname: 'product 5',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:6,
@@ -55,7 +55,7 @@ const AllProducts = () => {
       productname: 'product 6',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:7,
@@ -63,7 +63,7 @@ const AllProducts = () => {
       productname: 'product 7',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:8,
@@ -71,7 +71,7 @@ const AllProducts = () => {
       productname: 'product 8',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:9,
@@ -79,7 +79,7 @@ const AllProducts = () => {
       productname: 'product 9',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:10,
@@ -87,7 +87,7 @@ const AllProducts = () => {
       productname: 'product 10',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:11,
@@ -95,7 +95,7 @@ const AllProducts = () => {
       productname: 'product 11',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     },
     {
       id:12,
@@ -103,7 +103,7 @@ const AllProducts = () => {
       productname: 'product 12',
       productprice: 100,
       counttype : '1 each',
-      discountpercent: 10
+      discountpercent: 12
     }
   ]
   return (
