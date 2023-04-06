@@ -19,7 +19,10 @@
     gap: 10px;
 }
 .CategorySlidebar .category:hover{
-    background-color: lightgreen;
+    background-color: var(--col1);
+    /* transform: scale(1.2); */
+    color: white;
+    cursor: pointer;
 }
 .CategorySlidebar .category h3{
     font-size: 10px;
